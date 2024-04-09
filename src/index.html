@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <img src="asset/BARA.jpeg" class="logo" alt="logo">
+                <ul id ="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Project</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li class="con"><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span><strong>Bara</strong></span> from Brooklyn.</h1>
+            </div>
+            <div class="remote">
+                <ul>
+                    <li>Remote</li>
+                    <li>Hybrid</li>
+                    <li>On site</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="asset/original.jpeg" alt="background">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a dedicated professional in the fields of software engineering and data science, I am driven by a passion for innovation and technology. Currently pursuing an MSc degree in Computer Science, I possess a strong foundation in both disciplines.</p>
+                    <p>My journey in software engineering started with a profound curiosity to decipher the complexities of code. Over the years, I have meticulously developed my skills in various programming languages, including Python, C++, Java, and JavaScript, enabling me to undertake diverse projects in web development, mobile app development, and data science.</p>
+                    <p>In addition to my expertise in software engineering, I have a keen interest in data science. Through hands-on experience and rigorous coursework and projects, I have acquired proficiency in data analysis, machine learning, and deep learning techniques. My ability to derive insights from data and implement predictive models adds value to my skill set.</p>
+                    <p>I thrive in collaborative environments, where I can engage with cross-functional teams to understand project requirements and deliver innovative solutions. Committed to lifelong learning, I stay updated with the latest industry trends and best practices, ensuring that I remain at the forefront of technology.</p>
+                <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>APP DEVELOPMENT</span><br><br>Proficient in building high-quality cross-platform applications,<br><br> Ensuring seamless user experiences across devices and platforms.</li>
+                            <li><span>WEB DEVELOPMENT</span><br><br>Skilled in developing responsive and interactive web applications,<br><br>Employing modern web technologies to create engaging user interfaces and experiences.
+                            <li><span>DATA SCIENCE</span><br><br>Experienced in conducting comprehensive data analytics,<br><br>Utilizing advanced statistical techniques and machine learning algorithms to derive actionable insights and drive data-informed decision-making.</li>
+                            <li><span>UI/UX</span><br><br>Proficient in designing intuitive and visually appealing user interfaces, with a focus on enhancing user satisfaction. <br><br>Interactive users engagement through effective UX design principles.</li>
+                    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>PRESENT</span><br><br>MS Computer Science, Brooklyn College, CUNY-BC.</li>
+                            <li><span>2022</span><br><br>MS Geo-science Informatics, Emporia State University, ESU.</li>
+                            <li><span>2023 - 2023</span><br><br>NON Degree, CUNY-BMCC</li>
+                            <li><span>2017-2020</span><br><br>Bsc. Oil and Gas Engineering, LakeSide University College, LUCG</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>SOFTWARE ENGINEERING</span><br><br>Web Development<br><br>App Development</li>
+                            <li><span>DATA SCIENCE</span><br><br>Data Analytics <br><br> Data Visualization<br><br>Machine Learning<br><br>Neural Networks</li>
+                            <li><span>UI/UX</span><br><br>Designing Application Interfaces<br><br>Web Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>As a web designer, I strive to blend creativity with functionality to deliver captivating and user-friendly websites. With a keen eye for detail and a deep understanding of user experience principles, I ensure that every design decision enhances the overall usability and aesthetics of the website.</p>
+                    <a href="resume.html">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-chart-line"></i>
+                    <h2>Data Analytics</h2>
+                    <p>In the realm of data analytics, I leverage data-driven insights to drive informed decision-making and achieve business objectives. Through a combination of statistical analysis, data visualization, and predictive modeling, I unlock the hidden potential within datasets to uncover valuable insights.
+                    </p>
+                    <a href="resume.html"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>Application Development</h2>
+                    <p>As an application developer, I specialize in crafting robust and user-centric applications that meet the evolving needs of users and businesses alike. My approach to application development combines cutting-edge technologies with best practices in software engineering to deliver high-quality solutions.
+                    </p>
+                    <a href="resume.html"> Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="asset/pizza.png" alt="code">
+                <div class="layer">
+                    <h3>Pizza Store</h3>
+                    <p>Desktop application developed using java</p>
+                    <a href="https://github.com/bara080"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="asset/lapi.png" alt="code">
+                <div class="layer">
+                    <h3>Gym Idea</h3>
+                    <p>App for gym lovers to share their workout and also motivate other folks</p>
+                    <a href="https://github.com/bara080"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="asset/lost.jpeg" alt="code">
+                <div class="layer">
+                    <h3>Lost and Found</h3>
+                    <p>Final project done for software development course as a requirement</p>
+                    <a href="https://github.com/bara080"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/bara080" class="btn">See More</a>
+        <a href="resume.html" class="btn">See Resume</a>
+    </div>
+</div>
+
+<!-- contact footer -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="line-footer"></div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/abaramoh/"> <i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/bara080"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:baraahmad232@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <div class="reach"> <p><i class="fa-regular fa-paper-plane"></i>baraahmad232@gmail.com</p></div>
+                </div>
+
+            </div>
+            <div class="contact-right"></div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Bara.A.M <i class="fa-solid fa-pen-nib"></i></p>
+    </div>
+   
+
+</div>
+
+
+<!-- Vanilla Script -->
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/66f8c8933e.js" crossorigin="anonymous"></script>
+</body>
+</html>
