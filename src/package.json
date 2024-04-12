@@ -1,0 +1,13 @@
+{
+    "name": "Portfolio",
+    "version": "1.0.0",
+    "description": "My Website portfolio JavaScript project",
+    "main": "index.js",
+    "scripts": {
+      "start": "node script.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
